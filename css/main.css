@@ -1,0 +1,132 @@
+/* 
+    Document   : main
+    Created on : 25.04.2012, 15:16:50
+    Author     : mrwebcoder
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a {
+
+color: white;
+margin-right: 5px;
+}
+
+
+#svninfo {
+margin 0 5px 5px 5px;
+}
+
+.infomsg {
+margin 5px 5px 5px 5px;
+padding 5px 5px 5px 5px;
+
+}
+
+.centerLogin {
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина слоя в пикселах */
+  
+    height: 200px; /* Высота слоя в пикселах */
+    left: 50%; /* Положение слоя от левого края */
+    top: 30%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+  /*  margin-top: -100px;	/* Отступ сверху */
+    /*background: #fc0; /* Цвет фона */
+   /* border: solid 1px black; /* Параметры рамки вокруг */
+    padding: 10px; /* Поля вокруг текста */
+    
+    overflow: none; /* Добавление полосы прокрутки */ 
+   }
+
+
+.blank {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+}
+
+.logindiv {
+	border-radius: 20px;
+	border: 0px dotted #a0c0e0; 
+	background: lightgray;
+	padding: 14px;
+	margin: 4px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.85);
+}
+
+.loginform {
+	font-size: 14px;
+}
+
+
+
+.passwordinput {
+	background: rgba(255, 224, 224, 0.7);
+}
+
+
+.submitinput {
+	border: 1px solid grey !important;  /* fix this */
+	background: #E6E6E6;
+        padding: 7px;
+        margin: 2px;
+        margin-top: 5px;
+}
+
+.righter {
+	width: 100%;
+	height: 100%;
+	text-align: right;
+}
+
+
+.revno {
+
+margin: 	5px 5px 5px 0px;
+padding:	5px 5px 5px 0px ;
+color: 		#303030;
+font-family: 	verdana;
+
+}
+
+.svndate {
+
+color:	 #505050;
+
+}
+
+
+.darkfader {
+
+position: fixed;
+z-index: 5;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba (0, 0, 0, 0.5);
+}
+
+.controls {
+
+width: 100%
+border-radius: 10px;
+border: 1px solid black;
+background: rgba (234, 248, 254, 0.7);
+padding: 14px;
+margin: 4px;
+}
+
+.popup {
+
+position: fixed;
+top: 50%;
+left: 50%;
+width: 800px;
+margin-left: -400px;
+margin-right: -300px;
+z-index: 254;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="{path}css/main.css" type="text/css" charset="UTF-8" media="all">
+        <link rel="stylesheet" href="{path}css/framework.css" type="text/css" charset="UTF-8" media="all">
+        <title>Добро пожаловать - Система управления версиями</title>
+    </head>
+    <body>
+      
+        <div class="f-nav-bar f-nav-bar-fixed"><center>Пожалуйста, введите ваш логин и пароль</center></div>
+        <div class="centerLogin">
+		<div class='logindiv'>
+                  <form class='loginform' action="" method='POST'>
+                  <input type="hidden" name="cmd" value="login">
+                  Логин:<br>
+                  <input class='' type="text" name='login' value=''><br>
+                  Пароль:<br>
+                  <input class='' type="password" name='password' value=''><br>
+                  <div class='righter'><input class='submitinput' type="submit" value='Вход'></div>
+                  </form>
+                </div>
+        </div>       
+        
+
+		
+
+    </body>
+</html>
